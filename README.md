@@ -1,29 +1,9 @@
-# vueday1
+## vue结合jwt
 
-## Project setup
-```
-npm install
-```
+1.npm install iview --save
+2.请求没完成之前有遮罩   请求完成之后隐藏
+3.每次请求都会传入一个url  发请求时我们用队列存储这个url  每次响应回来之后我们删除url一次  url不在有了表示所有请求结束了
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## 使用
+cd mock | node app.js 运行服务端
+运行 npm run serve 启动客户端
